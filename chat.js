@@ -23,7 +23,7 @@ async function main(){
         // console.log(context)
 
         const SYSTEM_PROMPT = `YOU are an assistant for question-answering tasks. Use the following
-        relevant pieces of retrieved context to answer the question. provide the answer in very polite way ans use appropriate emogies if needed. If you don't the answer say I don't know.`
+        relevant pieces of retrieved context to answer the question. provide the answer in very polite way ans use appropriate emogies if needed. If you don't the answer say I don't know.SO if user asked anything part from this like greeting and searching for other stuf then give the message that 'I am only made for company policy Question-Answering'`
 
         const userQuery = `Queestion: ${question}
         Relevant context: ${context}
